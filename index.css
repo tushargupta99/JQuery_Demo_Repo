@@ -1,0 +1,67 @@
+:root {
+  font-size: 16px;
+  color: #fff;
+}
+
+body {
+  background: url("image.jpg") no-repeat fixed center;
+  background-size: cover;
+  margin: 0;
+}
+
+.header_section .navbar {
+  background-color: rgb(255, 0, 0, 0.8);
+  /*Make sure that U check out the following appealing black bg-color too */
+  /*background-color:rgb(0,0,0,0.8);*/
+  display: flex;
+}
+
+.logo {
+  height: 55px;
+  width: 100px;
+  margin-top: 3vh;
+  margin-bottom: 0vh;
+  /*padding: 20px;*/
+}
+
+.header_section .navbar .navbar_item {
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 5.5vh 2vw 0vh 0vw;
+  text-decoration: none;
+}
+
+.navbar_item:hover {
+  text-shadow: 2px 2px 5px black;
+  text-decoration: underline;
+}
+
+.content {
+  padding: 0vh 4vh;
+  font-size: 1.5rem;
+  color: #fff
+}
+
+@media only screen and (max-width: 578px) {
+   :root {
+    font-size: 14px;
+  }
+  .logo {
+    height: 45px;
+    width: 90px;
+    margin-top: 3.5vh;
+    margin-bottom: 0vh;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+   :root {
+    font-size: 12px;
+  }
+  .logo {
+    height: 35px;
+    width: 70px;
+    margin-top: 4vh;
+    margin-bottom: 0vh;
+  }
+}
